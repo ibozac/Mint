@@ -8,69 +8,6 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
   padding: 0;
 }
 
-input[type='text'], input[type='email'], textarea, select, input[type='radio'], input[type='checkbox'] {
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  outline: none;
-  text-shadow: none;
-}
-
-textarea {
-  resize: none;
-}
-
-@font-face {
-  font-family: 'Birdseye';
-  src: url('theme/fonts/17c55b27-e9ab-43cd-b948-d49f97480d68.eot?#iefix?1680750711');
-  src: url('theme/fonts/17c55b27-e9ab-43cd-b948-d49f97480d68.eot?#iefix?1680750711') format('eot'), url('theme/fonts/2e3f5cb9-101f-46cf-a7b3-dfaa58261e03.woff2?1680750711') format('woff2'), url('theme/fonts/fa19948e-5e38-4909-b31e-41acd170d6f2.woff?1680750711') format('woff'), url('theme/fonts/6de0ce4d-9278-467b-b96f-c1f5f0a4c375.ttf?1680750711') format('truetype'), url('theme/fonts/9fd4ea0c-b19a-4b21-9fdf-37045707dd78.svg#9fd4ea0c-b19a-4b21-9fdf-37045707dd78?1680750711') format('svg');
-  font-weight: 100;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Birdseye';
-  src: url('theme/fonts/8b498c39-fabe-4789-bb81-5e37c9ecddd3.eot?#iefix?1680750711');
-  src: url('theme/fonts/8b498c39-fabe-4789-bb81-5e37c9ecddd3.eot?#iefix?1680750711') format('eot'), url('theme/fonts/1c6c1881-23c9-4d6a-a018-759d1c9ded15.woff2?1680750711') format('woff2'), url('theme/fonts/f0d655c5-a88a-49ad-bb29-f3b5cca41731.woff?1680750711') format('woff'), url('theme/fonts/3a561c83-40d4-4868-8255-e8455eb009c4.ttf?1680750711') format('truetype'), url('theme/fonts/3966f856-9dcf-48e7-88e7-7400f1b7d619.svg#3966f856-9dcf-48e7-88e7-7400f1b7d619?1680750711') format('svg');
-  font-weight: 100;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Birdseye';
-  src: url('theme/fonts/e9167238-3b3f-4813-a04a-a384394eed42.eot?#iefix?1680750711');
-  src: url('theme/fonts/e9167238-3b3f-4813-a04a-a384394eed42.eot?#iefix?1680750711') format('eot'), url('theme/fonts/2cd55546-ec00-4af9-aeca-4a3cd186da53.woff2?1680750711') format('woff2'), url('theme/fonts/1e9892c0-6927-4412-9874-1b82801ba47a.woff?1680750711') format('woff'), url('theme/fonts/46cf1067-688d-4aab-b0f7-bd942af6efd8.ttf?1680750711') format('truetype'), url('theme/fonts/52a192b1-bea5-4b48-879f-107f009b666f.svg#52a192b1-bea5-4b48-879f-107f009b666f?1680750711') format('svg');
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Birdseye';
-  src: url('theme/fonts/d1fddef1-d940-4904-8f6c-17e809462301.eot?#iefix?1680750711');
-  src: url('theme/fonts/d1fddef1-d940-4904-8f6c-17e809462301.eot?#iefix?1680750711') format('eot'), url('theme/fonts/7377dbe6-f11a-4a05-b33c-bc8ce1f60f84.woff2?1680750711') format('woff2'), url('theme/fonts/92b66dbd-4201-4ac2-a605-4d4ffc8705cc.woff?1680750711') format('woff'), url('theme/fonts/18839597-afa8-4f0b-9abb-4a30262d0da8.ttf?1680750711') format('truetype'), url('theme/fonts/1de7e6f4-9d4d-47e7-ab23-7d5cf10ab585.svg#1de7e6f4-9d4d-47e7-ab23-7d5cf10ab585?1680750711') format('svg');
-  font-weight: 500;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Birdseye';
-  src: url('theme/fonts/1a7c9181-cd24-4943-a9d9-d033189524e0.eot?#iefix?1680750711');
-  src: url('theme/fonts/1a7c9181-cd24-4943-a9d9-d033189524e0.eot?#iefix?1680750711') format('eot'), url('theme/fonts/627fbb5a-3bae-4cd9-b617-2f923e29d55e.woff2?1680750711') format('woff2'), url('theme/fonts/f26faddb-86cc-4477-a253-1e1287684336.woff?1680750711') format('woff'), url('theme/fonts/63a74598-733c-4d0c-bd91-b01bffcd6e69.ttf?1680750711') format('truetype'), url('theme/fonts/a89d6ad1-a04f-4a8f-b140-e55478dbea80.svg#a89d6ad1-a04f-4a8f-b140-e55478dbea80?1680750711') format('svg');
-  font-weight: 600;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Birdseye';
-  src: url('theme/fonts/77a9cdce-ea6a-4f94-95df-e6a54555545e.eot?#iefix?1680750711');
-  src: url('theme/fonts/77a9cdce-ea6a-4f94-95df-e6a54555545e.eot?#iefix?1680750711') format('eot'), url('theme/fonts/3f380a53-50ea-4a62-95c5-d5d8dba03ab8.woff2?1680750711') format('woff2'), url('theme/fonts/8344e877-560d-44d4-82eb-9822766676f9.woff?1680750711') format('woff'), url('theme/fonts/b28b01d9-78c5-46c6-a30d-9a62c8f407c5.ttf?1680750711') format('truetype'), url('theme/fonts/ed4d3c45-af64-4992-974b-c37cd12a9570.svg#ed4d3c45-af64-4992-974b-c37cd12a9570?1680750711') format('svg');
-  font-weight: 600;
-  font-style: italic;
-}
-
 html {
   height: 100%;
 }
@@ -80,12 +17,13 @@ body {
   height: 100%;
   background: rgba(0,0,0,0.05);
   color: #9AD2B2;
-  font-family: 'Birdseye', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 500;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 
 a {
   color: inherit;
@@ -171,11 +109,6 @@ blockquote:before {
   font-weight: bold;
 }
 
-.splash-page .wsite-background, .wsite-header-section {
-  background: url(theme/images/default-bg.jpg?1680750711) no-repeat top center;
-  background-size: cover;
-}
-
 .wsite-header-section {
   height: 600px;
 }
@@ -199,6 +132,7 @@ body.header-overlay-on .wsite-header-section:not(.wsite-section-bg-color):before
 
 .banner-wrap .container {
   padding: 80px 40px;
+
 }
 
 .banner-wrap .banner {
@@ -211,9 +145,9 @@ body.header-overlay-on .wsite-header-section:not(.wsite-section-bg-color):before
 
 .banner-wrap h2 {
   color: inherit;
-  font-family: 'Birdseye', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 80px;
-  font-weight: 100;
+  font-weight: 300;
   line-height: 1.15;
   margin: 15px auto;
 }
@@ -259,48 +193,9 @@ body.full-width-body-off .banner-wrap .container, body.full-width-body-off .main
   margin: 0 auto;
 }
 
-.footer-wrap {
-  width: 100%;
-  font-size: 14px;
-}
 
-.footer-wrap .wsite-footer {
-  padding: 60px 40px;
-}
 
-.footer-wrap h2, .footer-wrap div.paragraph, .footer-wrap blockquote {
-  margin: 0 auto 20px;
-}
-
-.footer-wrap h2, .footer-wrap p, .footer-wrap blockquote {
-  margin: 0 auto 20px;
-}
-
-.footer-wrap h2 {
-  font-size: 20px;
-}
-
-.footer-wrap div.paragraph {
-  font-size: 14px;
-}
-
-.footer-wrap p {
-  font-size: 14px;
-}
-
-.footer-wrap blockquote {
-  font-size: 14px;
-  background: transparent;
-  padding: 0 0 0 1em;
-}
-
-.footer-wrap blockquote:before {
-  top: 0;
-  left: 0;
-  font-size: 1.5em;
-}
-
-.birdseye-header {
+.kreativka-header {
   position: fixed;
   top: 0;
   z-index: 12;
@@ -318,28 +213,28 @@ body.full-width-body-off .banner-wrap .container, body.full-width-body-off .main
   -webkit-backface-visibility: hidden;
 }
 
-.birdseye-header .container {
+.kreativka-header .container {
   display: table;
   overflow-y: hidden;
   width: 100%;
   max-height: 80px;
 }
 
-.birdseye-header .hamburger {
+.kreativka-header .hamburger {
   display: none;
 }
 
-.birdseye-header .logo {
+.kreativka-header .logo {
   display: table-cell;
   overflow-y: hidden;
   vertical-align: middle;
 }
 
-.birdseye-header .logo * {
+.kreativka-header .logo * {
   display: block;
 }
 
-.birdseye-header .logo a {
+.kreativka-header .logo a {
   margin-right: 30px;
   -webkit-transition: opacity 200ms ease;
   -moz-transition: opacity 200ms ease;
@@ -347,11 +242,11 @@ body.full-width-body-off .banner-wrap .container, body.full-width-body-off .main
   transition: opacity 200ms ease;
 }
 
-.birdseye-header .logo a:hover {
+.kreativka-header .logo a:hover {
   opacity: .6;
 }
 
-.birdseye-header .logo #wsite-title {
+.kreativka-header .logo #website-title {
   max-width: 400px;
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
@@ -365,7 +260,7 @@ body.full-width-body-off .banner-wrap .container, body.full-width-body-off .main
   transition: font-size 260ms ease;
 }
 
-.birdseye-header .logo img {
+.kreativka-header .logo img {
   overflow: hidden;
   max-width: 200px;
   max-height: 40px;
@@ -466,7 +361,7 @@ body.full-width-body-off .banner-wrap .container, body.full-width-body-off .main
   display: none;
 }
 
-body.affix .birdseye-header {
+body.affix .kreativka-header {
   position: fixed;
   -webkit-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.05);
   -moz-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.05);
@@ -475,45 +370,45 @@ body.affix .birdseye-header {
   padding: 10px 40px;
 }
 
-body.affix .birdseye-header .logo #wsite-title {
+body.affix .kreativka-header .logo #website-title {
   font-size: 24px;
 }
 
-body.affix .birdseye-header .wsite-menu-item {
+body.affix .kreativka-header .wsite-menu-item {
   padding: 10px 20px;
 }
 
-body.affix .birdseye-header, body.no-header-page .birdseye-header, body.splash-banner-page .birdseye-header {
+body.affix .kreativka-header, body.no-header-page .kreativka-header, body.splash-banner-page .kreativka-header {
   background: #ffffff;
   color: #9AD2B2;
   border-color: #9AD2B2;
 }
 
-body.affix .birdseye-header .nav #wsite-nav-cart-num, body.no-header-page .birdseye-header .nav #wsite-nav-cart-num, body.splash-banner-page .birdseye-header .nav #wsite-nav-cart-num {
+body.affix .kreativka-header .nav #wsite-nav-cart-num, body.no-header-page .kreativka-header .nav #wsite-nav-cart-num, body.splash-banner-page .kreativka-header .nav #wsite-nav-cart-num {
   background: #9AD2B2;
   color: #ffffff;
 }
 
-body.affix .birdseye-header .hamburger span, body.affix .birdseye-header .hamburger span:before, body.affix .birdseye-header .hamburger span:after, body.no-header-page .birdseye-header .hamburger span, body.no-header-page .birdseye-header .hamburger span:before, body.no-header-page .birdseye-header .hamburger span:after, body.splash-banner-page .birdseye-header .hamburger span, body.splash-banner-page .birdseye-header .hamburger span:before, body.splash-banner-page .birdseye-header .hamburger span:after {
+body.affix .kreativka-header .hamburger span, body.affix .kreativka-header .hamburger span:before, body.affix .kreativka-header .hamburger span:after, body.no-header-page .kreativka-header .hamburger span, body.no-header-page .kreativka-header .hamburger span:before, body.no-header-page .kreativka-header .hamburger span:after, body.splash-banner-page .kreativka-header .hamburger span, body.splash-banner-page .kreativka-header .hamburger span:before, body.splash-banner-page .kreativka-header .hamburger span:after {
   background: #9AD2B2;
 }
 
-body.affix.alt-nav-on .birdseye-header, body.no-header-page.alt-nav-on .birdseye-header, body.splash-banner-page.alt-nav-on .birdseye-header {
+body.affix.alt-nav-on .kreativka-header, body.no-header-page.alt-nav-on .kreativka-header, body.splash-banner-page.alt-nav-on .kreativka-header {
   background: rgba(154,210,178,0.9);
   color: #ffffff;
   border-color: #ffffff;
 }
 
-body.affix.alt-nav-on .birdseye-header .nav #wsite-nav-cart-num, body.no-header-page.alt-nav-on .birdseye-header .nav #wsite-nav-cart-num, body.splash-banner-page.alt-nav-on .birdseye-header .nav #wsite-nav-cart-num {
+body.affix.alt-nav-on .kreativka-header .nav #wsite-nav-cart-num, body.no-header-page.alt-nav-on .kreativka-header .nav #wsite-nav-cart-num, body.splash-banner-page.alt-nav-on .kreativka-header .nav #wsite-nav-cart-num {
   background: #ffffff;
   color: rgba(154,210,178,0.9);
 }
 
-body.affix.alt-nav-on .birdseye-header .hamburger span, body.affix.alt-nav-on .birdseye-header .hamburger span:before, body.affix.alt-nav-on .birdseye-header .hamburger span:after, body.no-header-page.alt-nav-on .birdseye-header .hamburger span, body.no-header-page.alt-nav-on .birdseye-header .hamburger span:before, body.no-header-page.alt-nav-on .birdseye-header .hamburger span:after, body.splash-banner-page.alt-nav-on .birdseye-header .hamburger span, body.splash-banner-page.alt-nav-on .birdseye-header .hamburger span:before, body.splash-banner-page.alt-nav-on .birdseye-header .hamburger span:after {
+body.affix.alt-nav-on .kreativka-header .hamburger span, body.affix.alt-nav-on .kreativka-header .hamburger span:before, body.affix.alt-nav-on .kreativka-header .hamburger span:after, body.no-header-page.alt-nav-on .kreativka-header .hamburger span, body.no-header-page.alt-nav-on .kreativka-header .hamburger span:before, body.no-header-page.alt-nav-on .kreativka-header .hamburger span:after, body.splash-banner-page.alt-nav-on .kreativka-header .hamburger span, body.splash-banner-page.alt-nav-on .kreativka-header .hamburger span:before, body.splash-banner-page.alt-nav-on .kreativka-header .hamburger span:after {
   background: #ffffff;
 }
 
-body.wsite-checkout-page .birdseye-header, body.wsite-native-mobile-editor .birdseye-header {
+body.wsite-checkout-page .kreativka-header, body.wsite-native-mobile-editor .kreativka-header {
   position: absolute !important;
 }
 
@@ -541,7 +436,7 @@ body.splash-page .banner {
   display: none;
 }
 
-body.splash-page .birdseye-header {
+body.splash-page .kreativka-header {
   top: calc(50% - 132px);
   padding: 40px 80px;
   background: #ffffff;
@@ -549,52 +444,52 @@ body.splash-page .birdseye-header {
   border-color: #9AD2B2;
 }
 
-body.splash-page .birdseye-header .container {
+body.splash-page .kreativka-header .container {
   height: 185px;
   max-height: none;
 }
 
-body.splash-page .birdseye-header .logo #wsite-title {
+body.splash-page .kreativka-header .logo #website-title {
   font-size: 50px;
 }
 
-body.splash-page .birdseye-header .wsite-phone {
+body.splash-page .kreativka-header .wsite-phone {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   color: rgba(154,210,178,0.6);
   padding-top: 20px;
 }
 
-body.splash-page .birdseye-header .nav .wsite-menu-item {
+body.splash-page .kreativka-header .nav .wsite-menu-item {
   font-size: 14px;
 }
 
-body.splash-page .birdseye-header li#active > .wsite-menu-item {
+body.splash-page .kreativka-header li#active > .wsite-menu-item {
   border-color: transparent;
 }
 
-body.splash-page .birdseye-header .nav #wsite-nav-cart-num {
+body.splash-page .kreativka-header .nav #wsite-nav-cart-num {
   background: #9AD2B2;
   color: #ffffff;
 }
 
-body.splash-page.alt-nav-on .birdseye-header {
+body.splash-page.alt-nav-on .kreativka-header {
   background: #9AD2B2;
   color: #ffffff;
   border-color: #ffffff;
 }
 
-body.splash-page.alt-nav-on .birdseye-header .wsite-phone {
+body.splash-page.alt-nav-on .kreativka-header .wsite-phone {
   color: rgba(255,255,255,0.6);
 }
 
-body.splash-page.alt-nav-on .birdseye-header .nav #wsite-nav-cart-num {
+body.splash-page.alt-nav-on .kreativka-header .nav #wsite-nav-cart-num {
   background: #ffffff;
   color: #9AD2B2;
 }
 
 body:not(.wsite-editor) .logo, body:not(.wsite-editor) .desktop-nav {
-  opacity: 0;
+  opacity: 1;
   -webkit-transition: opacity 600ms ease-in 300ms;
   -moz-transition: opacity 600ms ease-in 300ms;
   -ms-transition: opacity 600ms ease-in 300ms;
@@ -1253,42 +1148,42 @@ h2#wsite-com-product-title {
       overflow: hidden;
   }
 
-  .birdseye-header {
+  .kreativka-header {
       top: 0;
       left: 0;
       padding: 5px 20px !important;
       min-height: 50px;
   }
 
-  .birdseye-header .birdseye-header, .birdseye-header .logo, .birdseye-header .logo img {
+  .kreativka-header .kreativka-header, .kreativka-header .logo, .kreativka-header .logo img {
       max-height: 40px;
   }
 
-  .birdseye-header .logo {
+  .kreativka-header .logo {
       overflow: hidden;
       padding-right: 25px;
   }
 
-  .birdseye-header .logo a {
+  .kreativka-header .logo a {
       margin-left: 0;
       margin-right: 0;
       font-size: 1.1em;
       line-height: 1.4em;
   }
 
-  .birdseye-header .logo #wsite-title {
+  .kreativka-header .logo #website-title {
       display: block;
       max-width: 100%;
       font-size: 1.1em !important;
       line-height: 1.4em !important;
   }
 
-  .birdseye-header .container {
+  .kreativka-header .container {
       min-height: 40px;
       max-height: inherit;
   }
 
-  .birdseye-header label.hamburger {
+  .kreativka-header label.hamburger {
       display: table-cell;
       vertical-align: middle;
   }
@@ -1306,12 +1201,12 @@ h2#wsite-com-product-title {
       max-height: 100vh;
   }
 
-  body.nav-open .birdseye-header label.hamburger span {
+  body.nav-open .kreativka-header label.hamburger span {
       position: relative;
       background: transparent;
   }
 
-  body.nav-open .birdseye-header label.hamburger span:before {
+  body.nav-open .kreativka-header label.hamburger span:before {
       top: 1px;
       -webkit-transform: rotate(45deg);
       -moz-transform: rotate(45deg);
@@ -1319,7 +1214,7 @@ h2#wsite-com-product-title {
       transform: rotate(45deg);
   }
 
-  body.nav-open .birdseye-header label.hamburger span:after {
+  body.nav-open .kreativka-header label.hamburger span:after {
       top: -1px;
       -webkit-transform: rotate(135deg);
       -moz-transform: rotate(135deg);
@@ -1572,11 +1467,11 @@ h2#wsite-com-product-title {
       padding-top: 50px;
   }
 
-  .no-header-page .birdseye-header {
+  .no-header-page .kreativka-header {
       padding: 5px 20px;
   }
 
-  .splash-page .birdseye-header {
+  .splash-page .kreativka-header {
       padding: 5px 20px;
   }
 

@@ -751,6 +751,19 @@ input[type='checkbox']:checked:after {
   margin-bottom: 10px;
 }
 
+/* Apply a horizontal flip on hover */
+
+.wsite-image {
+  transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+.wsite-image:hover {
+  transform: scaleX(-1); /* Flip horizontally on hover */
+}
+
+
+
+
 .fancybox-overlay {
   background: rgba(255,255,255,0.9);
 }
